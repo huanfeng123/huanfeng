@@ -2,7 +2,7 @@
 
 ![](assets/preview.png)
 
-预览: [https://vercel-chatgpt-github.vercel.app](https://vercel-chatgpt-github.vercel.app)
+预览: [https://119.cab](https://119.cab)
 
 ## 部署一个你自己的（免费）
 
