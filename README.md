@@ -2,7 +2,9 @@
 
 ![](assets/preview.png)
 
-预览: [https://119.cab](https://119.cab)
+
+预览: [119.cab](https://119.cab)
+个人博客：[是枭](https://blog.evv1.com)
 
 ## 部署一个你自己的（免费）
 
@@ -10,7 +12,7 @@
 
 如果你只需要部署一个你自己用的网站，而不需要定制，那么你完全不需要在本地跑起来，你可以直接点击下面的按钮，然后按照提示操作即可。 vercel 域名已经被墙，但 vercel 本身没有被墙，所以你绑定自己的域名就可以了。
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ourongxing/chatgpt-vercel)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/huanfeng123/huanfeng)
 
 如果你需要部署给更多人用，那么你可能需要将上面创建的你自己的仓库 `git clone` 到本地。
 
@@ -41,11 +43,6 @@
 
 4. `git commit & push` 即可重新部署，vscode 上点几下就可以了。
 
-如果你需要在本地开发和调试，有点麻烦
-1. 升级到 `node18`，要用到原生的 `fetch`。
-2. API 被墙了，自己想办法开代理，不然要报错。也可以直接 `vercel deploy` 部署到 vercel 开发环境上调试。
-3. `pnpm i` 安装依赖。
-4. `pnpm dev` 启动项目。
 ## API
 
 ### POST /api
